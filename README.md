@@ -16,12 +16,12 @@
 這是一個簡化的 HTML 範本
 
 <pre>
->    <html>
->    <head>
->      <title>這是網頁標題只能放文字</title>  
->    </head>
->    <body>
->      這裡放網頁內容
->    </body>
->    </html>
+    &lt;html&gt;
+    <head>
+      <title>這是網頁標題只能放文字</title>  
+    </head>
+    <body>
+      這裡放網頁內容
+    </body>
+    </html>
 </pre>
