@@ -32,10 +32,11 @@
 &lt;!doctype html&gt;
 &lt;html&gt;
 &lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;title&gt;title here&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;這裡放網頁標題&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
+    這裡放網頁內容
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
