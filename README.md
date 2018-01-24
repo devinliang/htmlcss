@@ -25,3 +25,17 @@
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
+
+這是另一個較完整的 HTML 空白範本
+
+<pre>
+&lt;!doctype html&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;meta charset=&quot;utf-8&quot;&gt;<br>
+&lt;title&gt;title here&lt;/title&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+</pre>
