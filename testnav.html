@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Test for Menu</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+        ul {
+            background-color: bisque;
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-evenly;
+
+            line-height: 50px;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+        }
+        ul>li {
+            flex: 1 1 auto;
+        }
+        ul>li>a {
+            text-decoration: none;
+            display: block;
+            background-color: cadetblue;
+            color: lightgoldenrodyellow;
+        }
+        ul>li>a:hover {
+            background-color: lightcoral;
+            color: green;
+        }
+    </style>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <ul>
+            <li><a href="#" id="item1">item1</a></li>
+            <li><a href="#" id="item2">item2</a></li>
+            <li><a href="#" id="item3">item3</a></li>
+            <li><a href="#" id="item4">item4</a></li>
+            <li><a href="#" id="item5">item5</a></li>
+        </ul>
+
+    </body>
+</html>

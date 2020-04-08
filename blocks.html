@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #main,#main2 {
+        display: flex;
+
+        flex-flow: row nowrap;
+        /* flex-direction: column;
+           flex-wrap: wrap; */
+
+        justify-content: space-between;
+
+        align-content: space-around;
+
+        width:80%;
+        height:300px;
+        background-color: beige;
+    }
+    .block {
+        /* width:100px; */
+        height:100px;
+        background-color: burlywood;
+        border:solid red thin;
+    }
+</style>
+<body>
+    <div id="main">
+        <div class="block" style="flex:0 0 200px;">111</div>
+        <div class="block" style="flex:2 0 200px;">222</div>
+        <div class="block" style="flex:1 1 200px;">333</div>
+    </div>
+    <div id="main2">
+        <div class="block" style="flex-basis:100px;">111</div>
+        <div class="block" style="flex-basis:100px;">222</div>
+        <div class="block" style="flex-basis:100px;">333</div>
+    </div>
+</body>
+</html>
